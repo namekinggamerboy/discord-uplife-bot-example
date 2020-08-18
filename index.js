@@ -4,7 +4,7 @@ const UP = require("uplife-api");
 var status = "{prefix}help | {users}Members;
 var owner = "<enter your user id>";
 UP.start(
-  process.env.TOKEN, 
+  "<Enter your Bot Token>", 
   status,
   "WATCHING",
   "idle",
