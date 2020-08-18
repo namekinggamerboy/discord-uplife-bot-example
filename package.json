@@ -1,0 +1,14 @@
+{
+  "name": "discord-uplife-bot-example",
+  "description": "discord-uplife-api-bot-example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "uplife-api": "^2.0.12",
+    "http": "*",
+    "express": "^4.17.1",
+    "node-opus": "^0.3.2"
+  }
+}
