@@ -10,5 +10,6 @@
     "http": "*",
     "express": "^4.17.1",
     "node-opus": "^0.3.2"
-  }
+  },
+"engines": { "node": "10.x" }
 }
