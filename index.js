@@ -1,13 +1,9 @@
 const prefix = "U";
 const UP = require("uplife-api");
 
-var status = "{prefix}help | {users}Members;
 var owner = "<enter your user id>";
 UP.start(
-  "<Enter your Bot Token>", 
-  status,
-  "WATCHING",
-  "idle",
+  "<Enter your Bot Token>",
   prefix,
   owner,
   {
@@ -39,5 +35,5 @@ UP.start(
 /* custom Commands */
 UP.commandHeader({
   name: __dirname+"/commands",
-  prefix: prefix
+ 
 }); 
