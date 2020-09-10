@@ -6,7 +6,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "uplife-api": "^2.0.12",
+    "uplife-api": "^2.0.13",
     "http": "*",
     "express": "^4.17.1",
     "node-opus": "^0.3.2"
