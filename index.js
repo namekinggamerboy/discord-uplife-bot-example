@@ -1,4 +1,4 @@
-const prefix = "U";
+const prefix = ",enter your prefix>";
 const UP = require("uplife-api");
 
 var owner = "<enter your user id>";
@@ -24,16 +24,3 @@ UP.start(
   }
 );
   
-
-
-/* afk ceck system */
-  UP.checkAfk({
-    message: "> 💤**{usertag}** is currently afk. Reason: {reason}",
-    autoDeleteAfk: "true"
-  });
-
-/* custom Commands */
-UP.commandHeader({
-  name: __dirname+"/commands",
- 
-}); 
