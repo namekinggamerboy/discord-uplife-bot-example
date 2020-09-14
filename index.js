@@ -1,6 +1,5 @@
-const prefix = ",enter your prefix>";
 const UP = require("uplife-api");
-
+const prefix = "<enter your prefix>";
 var owner = "<enter your user id>";
 UP.start(
   "<Enter your Bot Token>",
@@ -19,8 +18,20 @@ UP.start(
     youtubekey: "<enter your YouTube v3 api>",
     economy: "true",
     help: "true",
-    welcomer: "true",
-    statusTime: 20000
+    welcomer: "true"
   }
 );
   
+
+UP.reactRoleSetup(__dirname+"/reactionRole.json");
+
+
+  
+UP.commandHeader({
+  name: __dirname+"/commands"
+});
+
+UP.checkAfk({
+    message: "> 💤**{usertag}** is currently afk. Reason: {reason}",
+    autoDeleteAfk: "false"
+  });
