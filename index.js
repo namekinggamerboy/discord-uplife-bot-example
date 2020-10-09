@@ -18,7 +18,9 @@ UP.start(
     youtubekey: "<enter your YouTube v3 api>",
     economy: "true",
     help: "true",
-    welcomer: "true"
+    welcomer: "true",
+    ping: "true",
+    pingColor: "#0099ff"
   }
 );
   
