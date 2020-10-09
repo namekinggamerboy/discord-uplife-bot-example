@@ -11,7 +11,7 @@ Afk (set or remove)
 Snipe
 Fakenitro
 Emojiid
-Reactionrole (create or delete)
+Reactionrole (create only)
 Love[only fun]
 Howgay[fun only]
 Rolecolor
