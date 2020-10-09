@@ -1,5 +1,6 @@
 {
   "name": "discord-uplife-bot-example",
+  "version": "1.0.2",
   "description": "discord-uplife-api-bot-example",
   "main": "index.js",
   "scripts": {
