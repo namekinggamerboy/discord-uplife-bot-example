@@ -6,7 +6,7 @@
 
 Commands list
 
-**
+```
 Afk (set or remove)
 Snipe
 Fakenitro
@@ -55,4 +55,4 @@ Setchannel
 setColor
 Weltest
 disable-welcomer
-**
+```
