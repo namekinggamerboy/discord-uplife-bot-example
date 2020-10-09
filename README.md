@@ -1,10 +1,11 @@
+Currently
 # This version 1.0.2 
 
 ## uplife-api base bot
 
 ### uplife-api version 2.0.20
 
-Commands list
+Commands list [48 commands]
 
 ```
 Afk (set or remove)
