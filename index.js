@@ -27,7 +27,7 @@ UP.start(
 
 UP.reactRoleSetup(__dirname+"/reactionRole.json");
 
-
+UP.checkSnipe();
   
 UP.commandHeader({
   name: __dirname+"/commands"
