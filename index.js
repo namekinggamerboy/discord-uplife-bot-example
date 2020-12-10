@@ -1,6 +1,7 @@
 const UP = require("uplife-api");
 const prefix = "<enter your prefix>";
 const owner = "<enter your user id>";
+UP.loginMe("coming soon..");
 UP.start(
   "<Enter your Bot Token>",
   prefix,
