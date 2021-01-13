@@ -1,7 +1,26 @@
+const express = require('express');
+
+const app = express();
+
+app.get("/", (request, response) => {
+
+  console.log(Date.now() + " Online bot using uplife-api");
+
+  response.sendStatus(200);
+
+});
+
+app.listen(process.env.PORT);
+
+
 const UP = require("uplife-api");
 const prefix = "<enter your prefix>";
 const owner = "<enter your user id>";
-UP.loginMe("coming soon..");
+
+UP.loginMe("< auth code>", "< bot id >");
+//Bot online 10s then
+setTimeout(() => {
+  
 UP.start(
   "<Enter your Bot Token>",
   prefix,
@@ -38,3 +57,5 @@ UP.checkAfk({
     message: "> 💤**{usertag}** is currently afk. Reason: {reason}",
     autoDeleteAfk: "false"
   });
+
+}, 10000);
