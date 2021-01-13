@@ -1,9 +1,9 @@
 Currently
-# This version 1.0.2 
+# This version 1.0.3 
 
 ## uplife-api base bot
 
-### uplife-api version 2.0.20
+### uplife-api version 2.0.25
 
 Commands list [48 commands]
 
