@@ -14,8 +14,8 @@ app.listen(process.env.PORT);
 
 
 const UP = require("uplife-api");
-const prefix = "<enter your prefix>";
-const owner = "<enter your user id>";
+var prefix = "<enter your prefix>";
+var owner = "<enter your user id>";
 
 UP.loginMe("< auth code>", "< bot id >");
 //Bot online 10s then
